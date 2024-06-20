@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" type="text/css" href="../schwarz.css">
+
+<script src="../JS/Fenster.js" type="text/javascript"></script>
+<script src="initalenParzival.js" type="text/javascript"></script>
+<script src="initialenShared.js" type="text/javascript"></script>
+
+<title>St. Gallen, Stiftsbibl., Cod. 857 - Parzival Initialen</title>
+</head>
+
+
+<body bgcolor="#000000">
+
+
+<!-- ********** Navigation / Menu ********** -->
+
+<table width="1000" border="0" cellspacing="8" cellpadding="0">
+  
+  <tr> 
+    <td width="1%">&nbsp;</td>
+    <td nowrap width="23%"><h2>Stiftsbibliothek St. Gallen, Codex 857</h2></td>
+    <td width="4%">&nbsp;</td>
+    
+    <td width="17%"> <a href="../index.html">STARTSEITE</a></td> 
+    <td width="17%"><a href="../einfuehrung.html">EINF&Uuml;HRUNG</a></td> 
+    <td width="17%"><a href="../parzival.html?1">CODEX</a></td>
+    <td width="17%"><a href="../materialien.html">MATERIALIEN</a></td>   
+	<td width="4%">
+      <div align="right"><a id ="infoButton" href=""><img src="../info/info2.gif" width="25" height="25" border="0
+	  " alt="Info"></a></div>
+    </td>
+  </tr>
+  
+</table>
+
+
+<!-- ********** Zeile 2 ********** -->
+<form name = "form1" action = "" >
+  <table width="1000" border="0" cellspacing="8" cellpadding="0">
+    <tr> 
+      <td width="2%">&nbsp;</td>
+      <td nowrap width="19%"> 
+        <select id="werkSelect" name="menu1" class="Auswahl">
+          <option value="javascript:">Initialen nach Werk</option>
+          <option value="InitParzival.html">Initialen im Parzival</option>
+          <option value="InitNibelungen.html">Initialen im Nibelungenlied</option>
+          <option value="InitKlage.html">Initiale in der Klage</option>
+          <option value="InitKarl.html">Initialen in Karl der Gro&szlig;e</option>
+          <option value="InitWillehalm.html">Initialen im Willehalm</option>
+          <option value="InitKJ.html">Initiale in der Kindheit Jesu</option>
+        </select>
+      </td>
+      <td nowrap width="15%"> 
+        <div> 
+          <select id="buchSelect" name="menu2" class="Auswahl">
+            <option value="javascript:">Initiale w&auml;hlen</option>
+            <option value="5_1">Initiale S. 5 (1. Initiale)</option>
+		<option value="5_2">Initiale S. 5 (2. Initiale)</option>
+		<option value="21">Initiale S. 21</option>
+		<option value="36">Initiale S. 36</option>
+		<option value="40">Initiale S. 40</option>
+		<option value="43">Initiale S. 43</option>
+		<option value="54">Initiale S. 54</option>
+		<option value="66">Initiale S. 66</option>
+		<option value="73">Initiale S. 73</option>
+		<option value="75">Initiale S. 75</option>
+		<option value="82">Initiale S. 82</option>
+		<option value="98">Initiale S. 98</option>
+		<option value="114">Initiale S. 114</option>
+		<option value="124">Initiale S. 124</option>
+		<option value="128">Initiale S. 128</option>
+		<option value="144_1">Initiale S. 144 (1. Initiale)</option>
+		<option value="144_2">Initiale S. 144 (2. Initiale)</option>
+		<option value="149">Initiale S. 149</option>
+		<option value="157">Initiale S. 157</option>
+		<option value="166">Initiale S. 166</option>
+		<option value="178">Initiale S. 178</option>
+		<option value="192">Initiale S. 192</option>
+		<option value="262">Initiale S. 262</option>
+		<option value="276">Initiale S. 276</option>     
+            </select>
+        </div>
+      </td>
+      <td nowrap width="32%"> 
+        <div align="center"> 
+          <input type="BUTTON" id="prevButton" value="Zur&uuml;ck" name="BUTTON" class="Button">
+          <input type="BUTTON" id="nextButton" value="Weiter" name="BUTTON2" class="Button">
+        </div>
+      </td>
+      <td nowrap width="32%"> 
+        <div align="right" class="fix">Bildgr&ouml;&szlig;e: 
+           <input type="BUTTON" id="screenSizeButton" name="Submit" value="Standard" class="Button">
+		   <input type="BUTTON" id="propSizeButton" name="Submit2" value="Proportional"  class="Button">
+        </div>
+      </td>
+    </tr>
+  </table>
+  
+  
+<!-- ********** Zeile 3 ********** -->
+  <table width="1000" border="0" cellspacing="8" cellpadding="0">
+    <tr> 
+      <td width="1%">&nbsp; </td>
+      <td valign="bottom" nowrap width="6%"> 
+        <div id="Seite" class="dynamisch"></div>
+      </td>
+      <td valign="bottom" nowrap width="32%"> 
+        <div align="right" id="Konkordanz" class="dynamisch"></div>
+      </td>
+    </tr>
+  </table>
+
+ 
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="1%">&nbsp;</td>
+      <td colspan="2" rowspan="2" align="center" valign="middle"><img id="Initiale" src=""></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="1%">&nbsp;</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="1%">&nbsp;</td>
+      <td width="48%" align="right"> 
+        <input type="BUTTON" id="prevButton2" value="Zur&uuml;ck" class="Button" name="BUTTON3">
+      </td>
+      <td width="50%" align="left"> 
+        <input type="BUTTON" id="nextButton2" value="Weiter" class="Button" name="BUTTON4">
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  </table>
+  <p><br>
+  <p> 
+</form>
+
+</body>
+</HTML>
+

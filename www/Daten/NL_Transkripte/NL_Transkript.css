@@ -1,0 +1,250 @@
+body {
+	background-color:#F0F0F0;
+	font-family: Lucida Grande, Junicode, serif;
+}
+h1 {
+	font-family:Arial,sans-serif; 
+	font-size:12pt; 
+	font-weight:bold;
+}
+h2 {
+	font-family:Arial,sans-serif; 
+	font-size:12pt; 
+	text-align:center;
+}
+p {
+	margin-top:30px; 
+	margin-bottom:30px;
+}
+a:link { 
+	color:black; 
+	text-decoration:none; 
+	cursor:text
+}
+a:visited { 
+	color:black; 
+	text-decoration:none; 
+	cursor:text
+}
+a:hover	{ 
+	color:black; 
+    text-decoration:none; 
+	cursor:text
+}
+a:active { 
+	color:black; 
+	text-decoration:none; 
+	cursor:text
+}
+a:focus	{ 
+	color:black; 
+	text-decoration:none; 
+	cursor:text
+}
+.ib {
+	color:blue; 
+	font-size:13pt; 
+	font-weight:bold
+}
+.ir {
+	color:red; 
+	font-size:13pt; 
+	font-weight:bold
+}
+.ig {
+	color:green; 
+	font-size:13pt; 
+	font-weight:bold
+}
+.is {
+	font-size:13pt; 
+	font-weight:bold
+}
+.xi {
+	color:#FA6450; 
+	font-size:0.7em
+}
+.xsi {
+	color:#FA6450; 
+	font-size:15pt;
+} 
+.si1 {
+	color:red; 
+	font-size:17pt; 
+	background-color:gold
+}
+.si2 {
+	color:red; 
+	font-size:14pt; 
+	font-weight:bold
+}
+.iFbr {
+	color:blue; 
+	font-size:13pt; 
+	font-weight:bold; 
+	background-color:#E3AC55
+}
+.iFrb {
+	color:red; 
+	font-size:13pt; 
+	font-weight:bold; 
+	background-color:#6AB5E4
+}
+.iFb {
+	color:blue; 
+	font-size:13pt; 
+	font-weight:bold
+}
+.iFr {
+	color:red; 
+	font-size:13pt; 
+	font-weight:bold
+}
+.v {
+	font-weight:bold;
+}
+.marg {
+	font-style:italic
+}
+.r {
+	background-color:gray
+}
+.n {
+	background-color:#80FFF0
+} 
+/* Korrekturen */
+.k {
+	color:gray; 
+}
+.sr		{ color:green; }
+.sr1	{ color:green; }
+.sr2	{ color:green; }
+.sr3	{ color:green; }
+.sr3?	{ color:green; }
+.sr4	{ color:green; }
+.sr?	{ color:green; }
+.ls  	{ color:#33FFFF; }
+.ls1  	{ color:#33FFFF; }
+.ls2  	{ color:#33FFFF; }
+.ls3  	{ color:#33FFFF; }
+.ls4  	{ color:#33FFFF; }
+.ls5  	{ color:#33FFFF; }
+.ls?  	{ color:#33FFFF; }
+
+.ls1 .hvh {
+	color: gray;
+	text-decoration: underline;
+	text-decoration-color: #33FFFF;
+}
+
+/* Rasuren */
+.ras { 
+	background-color:gray 
+	}
+/* Bei Mehrfachkorrektur */
+.k .ras {
+	color: green;
+}	
+
+/* Löschungen mit [del]*/
+.d {
+	text-decoration:line-through;
+}
+/* Hinzufügungen mit [add]*/
+.add {
+	color: green;
+}
+.g {
+	color:#FF00FF;
+}
+.schreiber {
+	font-variant:small-caps; 
+	text-align:center; 
+	margin-bottom:10px; 
+	margin-top:10px
+}
+.ues {
+	color:red; 
+	font-weight:bold
+	}
+.var {
+	color:#804000; 
+	font-weight:bold
+}
+.zr	{
+	background-color:gray
+}
+.zd	{
+	text-decoration:line-through;
+}
+.zk	{
+	background-color:#78C878;
+}
+.zn	{
+	background-color:#80FFF0
+} 
+.blau {
+	color:blue;
+}
+.vers {
+	font-family: Lucida Grande, Junicode, serif;
+}
+
+.versnr {
+font-size: 0.8em;  
+}
+/* Verbesserung an Versnr */
+.versnr_karl {
+	font-weight: normal; 
+	font-size: 0.8em;  
+	margin-right: 15px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	display: inline-block;
+	position: relative;
+	width: 45px;
+}
+/* Zusätzliche Verszählungen als Tooltip */
+.versnr_karl .bartschweber {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.versnr_karl .bartschweber::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.versnr_karl:hover .bartschweber {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rundeKlammern::before {
+    content: "(";
+}
+
+.rundeKlammern::after {
+    content: ")";
+}
+
+.pipe::before {
+  content: "|";
+}
+.nota {
+font-style:italic;
+}

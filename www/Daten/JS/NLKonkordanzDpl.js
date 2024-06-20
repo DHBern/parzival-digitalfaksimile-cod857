@@ -1,0 +1,67 @@
+function checkKonkordDoppelt() {
+
+if (curSlide==290 || curSlide==291){konkordanz="(Namen) / 2 - 24"; return;}
+if (curSlide==292 || curSlide==293){konkordanz="25 - 70"; return;}
+if (curSlide==294 || curSlide==295){konkordanz="71 - 116"; return;}
+if (curSlide==296 || curSlide==297){konkordanz="117 - 163"; return;}
+if (curSlide==298 || curSlide==299){konkordanz="164 - 209"; return;}
+if (curSlide==300 || curSlide==301){konkordanz="210 - 257"; return;}
+if (curSlide==302 || curSlide==303){konkordanz="258 - 303"; return;}
+if (curSlide==304 || curSlide==305){konkordanz="304 - 350"; return;}
+if (curSlide==306 || curSlide==307){konkordanz="351 - 397"; return;}
+if (curSlide==308 || curSlide==309){konkordanz="398 - 440"; return;}
+if (curSlide==310 || curSlide==311){konkordanz="441 - 485"; return;}
+if (curSlide==312 || curSlide==313){konkordanz="486 - 529"; return;}
+if (curSlide==314 || curSlide==315){konkordanz="530 - 571"; return;}
+if (curSlide==316 || curSlide==317){konkordanz="572 - 611"; return;}
+if (curSlide==318 || curSlide==319){konkordanz="612 - 652"; return;}
+if (curSlide==320 || curSlide==321){konkordanz="653 - 695"; return;}
+if (curSlide==322 || curSlide==323){konkordanz="696 - 736"; return;}
+if (curSlide==324 || curSlide==325){konkordanz="737 - 777"; return;}
+if (curSlide==326 || curSlide==327){konkordanz="778 - 817"; return;}
+if (curSlide==328 || curSlide==329){konkordanz="818 - 857"; return;}
+if (curSlide==330 || curSlide==331){konkordanz="858 - 897"; return;}
+if (curSlide==332 || curSlide==333){konkordanz="898 - 939"; return;}
+if (curSlide==334 || curSlide==335){konkordanz="940 - 978"; return;}
+if (curSlide==336 || curSlide==337){konkordanz="979 - 1020"; return;}
+if (curSlide==338 || curSlide==339){konkordanz="1021 - 1058"; return;}
+if (curSlide==340 || curSlide==341){konkordanz="1059 - 1091"; return;}
+if (curSlide==342 || curSlide==343){konkordanz="1092 - 1123"; return;}
+if (curSlide==344 || curSlide==345){konkordanz="1124 - 1156"; return;}
+if (curSlide==346 || curSlide==347){konkordanz="1157 - 1190"; return;}
+if (curSlide==348 || curSlide==349){konkordanz="1191 - 1222"; return;}
+if (curSlide==350 || curSlide==351){konkordanz="1223 - 1256"; return;}
+if (curSlide==352 || curSlide==353){konkordanz="1257 - 1290"; return;}
+if (curSlide==354 || curSlide==355){konkordanz="1291 - 1327"; return;}
+if (curSlide==356 || curSlide==357){konkordanz="1328 - 1368"; return;}
+if (curSlide==358 || curSlide==359){konkordanz="1369 - 1405"; return;}
+if (curSlide==360 || curSlide==361){konkordanz="1406 - 1444"; return;}
+if (curSlide==362 || curSlide==363){konkordanz="1445 - 1484"; return;}
+if (curSlide==364 || curSlide==365){konkordanz="1485 - 1525"; return;}
+if (curSlide==366 || curSlide==367){konkordanz="1526 - 1561"; return;}
+if (curSlide==368 || curSlide==369){konkordanz="1562 - 1600"; return;}
+if (curSlide==370 || curSlide==371){konkordanz="1601 - 1638"; return;}
+if (curSlide==372 || curSlide==373){konkordanz="1639 - 1677"; return;}
+if (curSlide==374 || curSlide==375){konkordanz="1678 - 1713"; return;}
+if (curSlide==376 || curSlide==377){konkordanz="1714 - 1749"; return;}
+if (curSlide==378 || curSlide==379){konkordanz="1750 - 1785"; return;}
+if (curSlide==380 || curSlide==381){konkordanz="1786 - 1823"; return;}
+if (curSlide==382 || curSlide==383){konkordanz="1824 - 1859"; return;}
+if (curSlide==384 || curSlide==385){konkordanz="1860 - 1896"; return;}
+if (curSlide==386 || curSlide==387){konkordanz="1897 - 1932"; return;}
+if (curSlide==388 || curSlide==389){konkordanz="1933 - 1966"; return;}
+if (curSlide==390 || curSlide==391){konkordanz="1967 - 2000"; return;}
+if (curSlide==392 || curSlide==393){konkordanz="2001 - 2033"; return;}
+if (curSlide==394 || curSlide==395){konkordanz="2034 - 2067"; return;}
+if (curSlide==396 || curSlide==397){konkordanz="2068 - 2097"; return;}
+if (curSlide==398 || curSlide==399){konkordanz="2098 - 2130"; return;}
+if (curSlide==400 || curSlide==401){konkordanz="2131 - 2162"; return;}
+if (curSlide==402 || curSlide==403){konkordanz="2163 - 2196"; return;}
+if (curSlide==404 || curSlide==405){konkordanz="2197 - 2229"; return;}
+if (curSlide==406 || curSlide==407){konkordanz="2230 - 2261"; return;}
+if (curSlide==408 || curSlide==409){konkordanz="2262 - 2295"; return;}
+if (curSlide==410 || curSlide==411){konkordanz="2296 - 2328"; return;}
+if (curSlide==412 || curSlide==413){konkordanz="2329 - 2362"; return;}
+if (curSlide==415 || curSlide==416){konkordanz="2363 - 2379"; return;}
+
+}

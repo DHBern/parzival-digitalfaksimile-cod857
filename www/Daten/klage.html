@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" type="text/css" href="schwarz.css">
+
+
+<script src="JS/BildAnzeige.js" type="text/javascript">
+</script>
+
+<script src="JS/Werke.js" type="text/javascript">
+</script>
+
+<script src="JS/KLStrophe.js" type="text/javascript">
+</script>
+
+<script src="JS/KLKonkordanz.js" type="text/javascript">
+</script>
+
+<script src="JS/KLKonkordanzDpl.js" type="text/javascript">
+</script>
+
+<script src="JS/Blatt.js" type="text/javascript">
+</script>
+
+<script src="JS/BlattDoppelt.js" type="text/javascript">
+</script>
+
+<script src="JS/Schreiber.js" type="text/javascript">
+</script>
+
+<script src="JS/Lagen.js" type="text/javascript">
+</script>
+
+<script src="JS/LagenDoppelt.js" type="text/javascript">
+</script>
+
+<script src="JS/Initialen.js" type="text/javascript">
+</script>
+
+<script src="JS/Fenster.js" type="text/javascript">
+</script>
+
+<script src="JS/WerkWechsel.js" type="text/javascript">
+</script>
+
+<script src="klage.js" type="text/javascript">
+</script>
+
+<title>St. Gallen, Stiftsbibl., Cod. 857 - Klage</title>
+
+
+</HEAD>
+
+
+<BODY  bgcolor="#000000">
+
+
+<!-- ********** Navigation / Menu ********** -->
+
+<table width="1000" border="0" cellspacing="8" cellpadding="0">
+  
+  <tr> 
+    <td width="1%">&nbsp;</td>
+    <td nowrap width="23%"><h2>Stiftsbibliothek St. Gallen, Codex 857</h2></td>
+    <td width="4%">&nbsp;</td>
+    
+    <td width="17%"> <a href="index.html">STARTSEITE</a></td> 
+    <td width="17%"><a href="einfuehrung.html">EINF&Uuml;HRUNG</a></td> 
+    <td width="17%"><a href="InitialenHTML/InitParzival.html">INITIALEN</a></td>
+    <td width="17%"><a href="materialien.html">MATERIALIEN</a></td>   
+	<td width="4%">
+      <div align="right"><a id="infoButton"><img src="info/info2.gif" width="25" height="25" border="0" alt="Info"></a></div>
+    </td>
+  </tr>
+  
+</table>
+
+
+<!-- ********** Zeile 2 ********** -->
+<form name = "form1" action = "">
+ <table width="1000" border="0" cellspacing="8" cellpadding="0">
+  <tr>  
+    
+    <td width="1%">&nbsp;</td>
+    
+    <td nowrap width="20%"> 
+      <select id="werkSelect" name="menu1" class="Auswahl">  <option value="javascript:">Werk w&auml;hlen</option>
+  <option value="parzival.html?1">(Einband Vorderseite)</option>
+  <option value="parzival.html?5">Parzival</option>
+  <option value="nibelungen.html?291">Nibelungenlied</option>
+  <option value="klage.html?416">Klage</option> <option value="karl.html?452">Karl der Gro&szlig;e</option>
+  <option value="willehalm.html?561">Willehalm</option>
+  <option value="FvS.html?693">Friedr. v. Sonnenburg</option>
+  <option value="KJ.html?694">Kindheit Jesu</option>
+  <option value="Hinvart.html?704">Unser vrouwen hinvart</option>
+  <option value="Hinvart.html?707">(Einband R&uuml;ckseite)</option>
+      </select>
+    </td>
+   
+    <td nowrap width="18%"> 
+      <div align="right"> 
+        <select id="versSelect" name="menu2" class="Auswahl">
+          <option value="javascript:">Vers w&auml;hlen</option>
+	   <option value="416">Vers 1</option>
+	   <option value="417">Vers 200</option>    
+	   <option value="419">Vers 400</option>    
+	   <option value="420">Vers 600</option>
+	   <option value="422">Vers 800</option>
+	   <option value="424">Vers 1000</option>
+	   <option value="426">Vers 1200</option>
+	   <option value="427">Vers 1400</option>
+	   <option value="429">Vers 1600</option>
+	   <option value="431">Vers 1800</option>
+	   <option value="432">Vers 2000</option>
+	   <option value="434">Vers 2200</option>
+	   <option value="436">Vers 2400</option>    
+	   <option value="437">Vers 2600</option>    
+	   <option value="439">Vers 2800</option>
+	   <option value="441">Vers 3000</option>
+	   <option value="443">Vers 3200</option>
+	   <option value="444">Vers 3400</option>
+	   <option value="446">Vers 3600</option>
+	   <option value="448">Vers 3800</option>
+	   <option value="449">Vers 4000</option>
+	   <option value="451">Vers 4200</option>
+	  </select>
+      </div>
+    </td>
+ 
+    <td nowrap width="18%"> 
+      <div align="center">
+        <input type="BUTTON" id="prevButton" value="Zur&uuml;ck" name="BUTTON" class="Button">
+        <input type="BUTTON" id="nextButton" value="Weiter" name="BUTTON2" class="Button">
+      </div>
+    </td>
+    
+    <td nowrap width="25%"> 
+      <div align="right" class="fix">Bildgr&ouml;&szlig;e: 
+        <input id="button150" type="BUTTON" name="Submit" value="150 %"  class="Button">
+        <input id="button100"type="BUTTON" name="Submit2" value="100 %" class="Button">
+        <input id="button50"type="BUTTON" name="Submit3" value="50 %"class="Button">
+      </div>
+    </td>
+    
+    <td width="8%"> 
+        <div align="right" class="fix">Vers:</div>
+    </td>
+    
+    <td nowrap width="10%"> 
+      <div align="right">
+        <input id="stropheInput" type="text" name="Strophe" size="7" maxlength="6" class="Feld">
+        <input id="stropheButton" type="Button" value="finden" name="Button" class="Button">
+      </div>
+    </td>
+    
+   </tr> 
+  </table>
+  
+  
+<!-- ********** Zeile 3 ********** -->
+<table width="1000" border="0" cellspacing="8" cellpadding="0">
+   <tr>
+    
+    <td width="1%">&nbsp;
+    
+    </td>
+    
+    <td valign="bottom" nowrap width="6%">
+    <div id="Seite" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="32%">
+    <div align="right" id="Konkordanz" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="16%">
+    <div align="center" id="Schreiber" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="17%"> 
+    <div align="right" id="Lage" class="dynamisch"></div></td>
+    <td valign="bottom" nowrap width="10%"> <img id="Lagensymbol" src=""  alt="Lagensymbol"></td>
+    
+    
+    <td valign="bottom" width="8%"> 
+    <div align="right" class="fix">Seite:</div>
+    </td>
+    
+    <td valign="bottom" nowrap width="10%"> 
+    <div align="right"> 
+    <input id="blattEingabe" type="text" name="Eingabe" size="7" maxlength="6" class="Feld">
+    <input id="blattFindenButton" type="Button" value="finden" class="Button">
+    </div>
+    </td>
+    
+  </tr>
+</table>
+
+ 
+  <table width="100%" border="0" cellspacing="0" cellpadding="5">
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%">&nbsp;</td>
+      <td width="50%">&nbsp;</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%" align="right"><img id="linkeSeite" src="" alt=""></td>
+      <td width="50%" align="left"><img id="rechteSeite" src="" alt=""></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%" align="right"> 
+        <input id="prevButton2" type="BUTTON" value="Zur&uuml;ck" class="Button" name="BUTTON3">
+      </td>
+      <td width="50%" align="left"> 
+        <input id="nextButton2" type="BUTTON" value="Weiter" class="Button" name="BUTTON4">
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  </table>
+  <p><br>
+  <p> 
+</form>
+
+</BODY>
+</HTML>
+

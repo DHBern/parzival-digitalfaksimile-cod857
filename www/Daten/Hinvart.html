@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" type="text/css" href="schwarz.css">
+
+
+<script src="JS/BildAnzeige.js" type="text/javascript">
+</script>
+
+<script src="JS/Werke.js" type="text/javascript">
+</script>
+
+<script src="JS/HinvartVers.js" type="text/javascript">
+</script>
+
+<script src="JS/HinvartKonkordanz.js" type="text/javascript">
+</script>
+
+<script src="JS/HinvartKonkordanzDpl.js" type="text/javascript">
+</script>
+
+<script src="JS/Blatt.js" type="text/javascript">
+</script>
+
+<script src="JS/BlattDoppelt.js" type="text/javascript">
+</script>
+
+<script src="JS/Schreiber.js" type="text/javascript">
+</script>
+
+<script src="JS/Lagen.js" type="text/javascript">
+</script>
+
+<script src="JS/LagenDoppelt.js" type="text/javascript">
+</script>
+
+<script src="JS/Initialen.js" type="text/javascript">
+</script>
+
+<script src="JS/Fenster.js" type="text/javascript">
+</script>
+
+<script src="JS/WerkWechsel.js" type="text/javascript">
+</script>
+
+<script src="Hinfahrt.js" type="text/javascript">
+</script>
+
+<title>Karlsruhe, Bad. Landesbibl., Cod. K 2037 - Unser vrouwen hinvart</title>
+
+
+</HEAD>
+
+<BODY bgcolor="#000000">
+
+
+<!-- ********** Navigation / Menu ********** -->
+
+<table width="1000" border="0" cellspacing="8" cellpadding="0">
+  
+  <tr> 
+    <td width="1%">&nbsp;</td>
+    <td nowrap width="23%"><h2 id="Titel">Karlsruhe, Bad. Landesbibl., Cod. K 2037</h2></td>
+    <td width="4%">&nbsp;</td>
+    
+    <td width="17%"> <a href="index.html">STARTSEITE</a></td> 
+    <td width="17%"><a href="einfuehrung.html">EINF&Uuml;HRUNG</a></td> 
+    <td width="17%"><a href="InitialenHTML/InitParzival.html">INITIALEN</a></td>
+    <td width="17%"><a href="materialien.html">MATERIALIEN</a></td>   
+	<td width="4%">
+      <div align="right"><a id="infoButton" href=""><img src="info/info2.gif" width="25" height="25" border="0
+	  " alt="Info"></a></div>
+    </td>
+  </tr>
+  
+</table>
+
+
+<!-- ********** Zeile 2 ********** -->
+<form name = "form1" action = "">
+ <table width="1000" border="0" cellspacing="8" cellpadding="0">
+  <tr>  
+    
+    <td width="1%">&nbsp;</td>
+    
+    <td nowrap width="20%"> 
+      <select name="menu1" id="werkSelect" class="Auswahl">  <option value="javascript:">Werk w&auml;hlen</option>
+  <option value="parzival.html?1">(Einband Vorderseite)</option>
+  <option value="parzival.html?5">Parzival</option>
+  <option value="nibelungen.html?291">Nibelungenlied</option>
+  <option value="klage.html?416">Klage</option> <option value="karl.html?452">Karl der Gro&szlig;e</option>
+  <option value="willehalm.html?561">Willehalm</option>
+  <option value="FvS.html?693">Friedr. v. Sonnenburg</option>
+  <option value="KJ.html?694">Kindheit Jesu</option>
+  <option value="Hinvart.html?704">Unser vrouwen hinvart</option>
+  <option value="Hinvart.html?707">(Einband R&uuml;ckseite)</option>
+      </select>
+    </td>
+   
+    <td nowrap width="18%"> 
+        <div align="right"> </div>
+    </td>
+ 
+    <td nowrap width="18%"> 
+      <div align="center">
+        <input id="prevButton" type="BUTTON" value="Zur&uuml;ck" name="BUTTON" class="Button">
+        <input id="nextButton" type="BUTTON" value="Weiter" name="BUTTON2" class="Button">
+      </div>
+    </td>
+    
+    <td nowrap width="25%"> 
+      <div align="right" class="fix">Bildgr&ouml;&szlig;e: 
+        <input id="button150" type="BUTTON" name="Submit" value="150 %" class="Button">
+        <input id="button100" type="BUTTON" name="Submit2" value="100 %" class="Button">
+        <input id="button50" type="BUTTON" name="Submit3" value="50 %" class="Button">
+      </div>
+    </td>
+    
+    <td width="8%"> 
+        <div align="right" class="fix"></div>
+    </td>
+    
+    <td nowrap width="10%"> 
+        <div align="right"> </div>
+    </td>
+    
+   </tr> 
+  </table>
+  
+  
+<!-- ********** Zeile 3 ********** -->
+<table width="1000" border="0" cellspacing="8" cellpadding="0">
+   <tr>
+    
+    <td width="1%">&nbsp;
+    
+    </td>
+    
+    <td valign="bottom" nowrap width="6%">
+    <div id="Seite" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="32%">
+    <div align="right" id="Konkordanz" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="16%">
+    <div align="center" id="Schreiber" class="dynamisch"></div>
+    </td>
+    
+    <td valign="bottom" nowrap width="17%"> 
+    <div align="right" id="Lage" class="dynamisch"></div></td>
+    <td valign="bottom" nowrap width="10%"> <img id="Lagensymbol" src=""  alt="Lagensymbol"></td>
+    
+    
+    <td valign="bottom" width="8%"> 
+    <div align="right" class="fix">Seite:</div>
+    </td>
+    
+    <td valign="bottom" nowrap width="10%"> 
+    <div align="right"> 
+    <input id="blattEingabe" type="text" name="Eingabe" size="7" maxlength="6" class="Feld">
+    <input id="blattFindenButton" type="Button" value="finden" class="Button">
+    </div>
+    </td>
+    
+  </tr>
+</table>
+
+ 
+  <table width="100%" border="0" cellspacing="0" cellpadding="5">
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%">&nbsp;</td>
+      <td width="50%">&nbsp;</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%" align="right"><img id="linkeSeite" src="" alt=""></td>
+      <td width="50%" align="left"><img id="rechteSeite" src="" alt=""></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="1%">&nbsp;</td>
+      <td width="48%" align="right"> 
+        <input id="prevButton2" type="BUTTON" value="Zur&uuml;ck" class="Button" name="BUTTON3">
+      </td>
+      <td width="50%" align="left"> 
+        <input id="nextButton2" type="BUTTON" value="Weiter" class="Button" name="BUTTON4">
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  </table>
+  <p><br>
+  <p> 
+</form>
+
+</BODY>
+</HTML>
+
