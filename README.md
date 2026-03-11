@@ -46,4 +46,20 @@ PWD: root directory of this repository
   * `Daten/info/*_save*`
   * `Daten/NL_Synopse/*_save*`
 
+* converted files from ISO-8859-1 to UTF-8
+  
+  ```
+  #!/usr/bin/env bash
+  set -e
+  
+  git ls-files | while read -r f; do
+    [ -f "$f" ] || continue
+    mime=$(file -b --mime-type "$f")
+    [[ "$mime" == text/* || "$mime" == application/javascript || "$mime" == application/xml || "$mime" == application/json ]] || continue
+    enc=$(file -b --mime-encoding "$f")
+    [[ "$enc" == iso-8859-1 || "$enc" == iso-8859-15 ]] && { echo "Converting $f ($enc → UTF-8)"; iconv -f "$enc" -t UTF-8 "$f" > "$f.tmp" && mv "$f.tmp" "$f"; }
+    sed -i '1s/^\xEF\xBB\xBF//' "$f"; sed -i 's/\r$//' "$f"
+  done
+  ```
+
 </details>
