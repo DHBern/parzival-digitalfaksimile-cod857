@@ -55,5 +55,5 @@ if (curSlide==551 || curSlide==552) {konkordanz="11354-11577"; return;}
 if (curSlide==553 || curSlide==554) {konkordanz="11578-11802"; return;}
 if (curSlide==555 || curSlide==556) {konkordanz="11803-12018"; return;}
 if (curSlide==557 || curSlide==558) {konkordanz="12019-12206"; return;}
-if (curSlide==559 || curSlide==560) {konkordanz=" / Willehalm (Nachtr‰ge)"; return;}
+if (curSlide==559 || curSlide==560) {konkordanz=" / Willehalm (Nachtr√§ge)"; return;}
 }

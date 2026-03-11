@@ -85,7 +85,7 @@ var spezKonkordanz="";
 	}
 	
 	if (curSlide==705 || curSlide==706) {
-	linkeSeite="Bruchstück"
+	linkeSeite="BruchstÃ¼ck"
 	rechteSeite="Einband innen"
 	}	
 	
@@ -101,12 +101,12 @@ var spezKonkordanz="";
 	if(curSlide==0 || curSlide==1) {spezialSeite="Einband au" + sz +"en (Vorderseite)";}	
 	
 	if(curSlide==705 || curSlide==706) {
-		spezialSeite="Bruchstück / Einband innen";
+		spezialSeite="BruchstÃ¼ck / Einband innen";
 		spezLage=LagenAngabe
 		spezLagenSymb="LagensymboleDoppelt/Einzel1v.gif";
-		spezKonkordanz="Unser vrouwen hinvart (Rückseite)";}
+		spezKonkordanz="Unser vrouwen hinvart (RÃ¼ckseite)";}
 		
-	if(curSlide==707 || curSlide==708) {spezialSeite="Einband au" + sz +"en (Rückseite)";}
+	if(curSlide==707 || curSlide==708) {spezialSeite="Einband au" + sz +"en (RÃ¼ckseite)";}
 		
 	
 	document.images["linkeSeite"].src = "../cod857bilder/D" + zoom + "/D" + lZusatz + links + ".jpg";
@@ -125,7 +125,7 @@ var spezKonkordanz="";
 		
 	else {
 	
-	if(curSlide==4 || curSlide==5) {Seite=""; linkeSeite="Vorsatzblatt Rückseite "; rechteSeite=" Seite 5"}
+	if(curSlide==4 || curSlide==5) {Seite=""; linkeSeite="Vorsatzblatt RÃ¼ckseite "; rechteSeite=" Seite 5"}
 	
 	if(curSlide==703 && werk=="Unser vrouwen hinvart") {werkAnz="U. vr. hinvart";}
 	if(curSlide==704 && werk=="Unser vrouwen hinvart") {werkAnz="U. vr. hinvart";}
@@ -183,13 +183,13 @@ else {
 	
 	if(curSlide<5 || curSlide>705) {
 	
-	if(curSlide==4) {spezialSeite="Vorsatzblatt Rückseite";}
+	if(curSlide==4) {spezialSeite="Vorsatzblatt RÃ¼ckseite";}
 	if(curSlide==3) {spezialSeite="Vorsatzblatt Vorderseite";}
 	if(curSlide==2) {spezialSeite="Einband innen";}
 	if(curSlide==0 || curSlide==1) {spezialSeite="Einband au" + sz +"en (Vorderseite)";}
 	
 	if(curSlide==706) {spezialSeite="Einband innen";}
-	if(curSlide==707) {spezialSeite="Einband au" + sz +"en (Rückseite)";}				
+	if(curSlide==707) {spezialSeite="Einband au" + sz +"en (RÃ¼ckseite)";}				
 	
 	document.images["linkeSeite"].src = "../cod857bilder/D" + zoom + "/D" + lZusatz + curSlide + ".jpg";
 	document.images["rechteSeite"].src = "blind.gif";
@@ -210,8 +210,8 @@ else {
 	else {
 		
 	if(curSlide>703) {Seite="";}
-	if(curSlide==704) {spezialSeite="Bruchstück";}
-	if(curSlide==705) {spezialSeite="Bruchstück";}
+	if(curSlide==704) {spezialSeite="BruchstÃ¼ck";}
+	if(curSlide==705) {spezialSeite="BruchstÃ¼ck";}
 	if(curSlide<=703) {spezialSeite=linkeSeite;}
 	
 	if(curSlide==290) {werkAnz="Parzival";}

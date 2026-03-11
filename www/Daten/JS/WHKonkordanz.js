@@ -35,7 +35,7 @@ if (curSlide==592) {konkordanz="110.12-112.05 / 112.06-113.29"; return;}
 if (curSlide==593) {konkordanz="113.30-115.23 / 115.24-117.17"; return;}
 if (curSlide==594) {konkordanz="117.18-119.11 / 119.12-121.05"; return;}
 if (curSlide==595) {konkordanz="121.06-122.29 / 122.30-124.23"; return;}
-if (curSlide==596) {konkordanz="124.24-126.02 / 126.03-127.26"; return;}
+if (curSlide==596) {konkordanz="124.24-126.02 / 126.03-127.26"; return;}
 if (curSlide==597) {konkordanz="127.27-129.20 / 129.21-131.14"; return;}
 if (curSlide==598) {konkordanz="131.15-133.08 / 133.09-135.02"; return;}
 if (curSlide==599) {konkordanz="135.03-136.26 / 136.27-138.20"; return;}

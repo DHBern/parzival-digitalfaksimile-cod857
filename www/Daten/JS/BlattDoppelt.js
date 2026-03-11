@@ -166,7 +166,7 @@ if (curSlide==380 || curSlide==381) {blattangabe=" (Bl. 161v/162r)" ; return}
 if (curSlide==382 || curSlide==383) {blattangabe=" (Bl. 162v/163r)" ; return}
 if (curSlide==384 || curSlide==385) {blattangabe=" (Bl. 163v/164r)" ; return}
 if (curSlide==386 || curSlide==387) {blattangabe=" (Bl. 164v/165r)" ; return}
-if (curSlide==388 || curSlide==389) {blattangabe=" (Bl. 165v/166r)" ; return}
+if (curSlide==388 || curSlide==389) {blattangabe=" (Bl. 165v/166r)" ; return}
 if (curSlide==390 || curSlide==391) {blattangabe=" (Bl. 166v/167r)" ; return}
 if (curSlide==392 || curSlide==393) {blattangabe=" (Bl. 167v/168r)" ; return}
 if (curSlide==394 || curSlide==395) {blattangabe=" (Bl. 168v/169r)" ; return}

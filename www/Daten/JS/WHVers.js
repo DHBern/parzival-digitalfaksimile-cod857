@@ -216,7 +216,7 @@ if (vers >= 334.18 && vers <= 336.11) {curSlide = 655; spalte = "a"; showSlide()
 if (vers >= 336.12 && vers <= 338.05) {curSlide = 655; spalte = "b"; showSlide();}
 if (vers >= 338.06 && vers <= 339.29) {curSlide = 656; spalte = "a"; showSlide();}
 if (vers >= 339.30 && vers <= 341.23) {curSlide = 656; spalte = "b"; showSlide();}
-if (vers >= 341.24 && vers <= 343.17) {curSlide = 657; spalte = "a"; showSlide();}
+if (vers >= 341.24 && vers <= 343.17) {curSlide = 657; spalte = "a"; showSlide();}
 if (vers >= 343.18 && vers <= 345.11) {curSlide = 657; spalte = "b"; showSlide();}
 if (vers >= 345.12 && vers <= 347.05) {curSlide = 658; spalte = "a"; showSlide();}
 if (vers >= 347.06 && vers <= 348.29) {curSlide = 658; spalte = "b"; showSlide();}
